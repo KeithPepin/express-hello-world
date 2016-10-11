@@ -1,0 +1,31 @@
+{
+  "name": "express-hello-world",
+  "description": "A basic \"Hello World\" app using node.js and Express",
+  "version": "1.0.0",
+  "author": "Keith Pepin <keith.pepin@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/KeithPepin/express-hello-world/issues"
+  },
+  "dependencies": {
+    "express": "4.14.0"
+  },
+  "engines": {
+    "node": ">=4.4.2"
+  },
+  "homepage": "https://github.com/KeithPepin/express-hello-world#readme",
+  "keywords": [
+    "Hello World",
+    "express",
+    "node"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeithPepin/express-hello-world.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
