@@ -8,7 +8,10 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app
 RUN npm install
 
-# Expose the defaul port for the app
+# Bundle app source
+COPY . /usr/src/app
+
+# Expose the default port for the app
 EXPOSE 5000
 
 CMD [ "npm", "start" ]
